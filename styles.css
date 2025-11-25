@@ -1,0 +1,68 @@
+/* Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  background: hsl(212, 45%, 89%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Container to push attribution to bottom */
+.wrapper {
+  text-align: center;
+}
+
+/* The card */
+.card {
+  background: white;
+  padding: 16px 16px 32px;
+  border-radius: 20px;
+  width: 320px;
+  height: 499px;
+  box-shadow: 0 25px 40px rgba(0, 0, 0, 0.1);
+}
+
+/* QR image */
+.qr-img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+/* Title */
+.title {
+  font-family: "Outfit", sans-serif;
+  font-size: 1.35rem;
+  margin-top: 22px;
+  color: hsl(218, 44%, 22%);
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+/* Subtitle */
+.subtitle {
+  margin-top: 16px;
+  font-size: 0.95rem;
+  color: hsl(220, 15%, 55%);
+  line-height: 1.4;
+  padding: 0 18px;
+}
+
+/* Attribution */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 18px;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
