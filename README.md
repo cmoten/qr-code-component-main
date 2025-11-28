@@ -16,6 +16,10 @@ This project focuses on learning to create a QR code componewnt in HTML and CSS.
 
 ![](/images/Moten-Solution-Screenshot.png)
 
+### Links
+
+Live Site URL: [QR Code Component](https://cmoten.github.io/qr-code-component-main/)
+
 ## My process
 
 ### Built with
